@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website | Tech aur Code</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="home">
+    <div class="navbar">
+      <div class="logo">
+        <h1>Portfolio</h1>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a> </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="header">
+      <div class="mainImg">
+        <img src="Images/IMG-20250704-WA0007.jpg" alt="Profile Image">
+      </div>
+      <div class="mainTxt">
+        <h1>Hello</h1>
+        <div class="typing-container">
+          <span id="typed-text"></span>
+          <span class="cursor">|</span>
+        </div>
+        <h3>Feel Free To contact With Me At Any Time</h3>
+        <div class="con-icons">
+          <a href="https://instagram.com/YOUR_ID" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://youtube.com/@YOUR_ID" target="_blank"><i class='bx bxl-youtube'></i></a>
+          <a href="https://facebook.com/YOUR_ID" target="_blank"><i class='bx bxl-facebook'></i></a>
+          <a href="https://github.com/YOUR_ID" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <div class="btn">
+          <a href="#">Download CV</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h1>Get in Touch</h1>
+    <p>Whether you have a question, a project idea, or just want to say hi — I’d love to hear from you!</p>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>📍 Kolkata, West Bengal</p>
+      <p>📧 ghoshsubhranil6@gmail.com</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/YOUR_ID" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://youtube.com/@YOUR_ID" target="_blank"><i class='bx bxl-youtube'></i></a>
+        <a href="https://facebook.com/YOUR_ID" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://github.com/YOUR_ID" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h1>MY Services</h1>
+    <p>I offer a range of creative and technical solutions to bring your ideas to life.</p>
+    <div class="service-grid">
+      <div class="service-card">
+        <h2>💻 Web Development</h2>
+        <p>Custom websites, landing pages, and web apps built with modern technologies.</p>
+      </div>
+      <div class="service-card">
+        <h2>🎨 UI/UX Design</h2>
+        <p>Beautiful, user-friendly interfaces that engage and convert.</p>
+      </div>
+      <div class="service-card">
+        <h2>📱 Mobile App Development</h2>
+        <p>Cross-platform mobile apps for Android and iOS using Flutter or React Native.</p>
+      </div>
+      <div class="service-card">
+        <h2>⚙️ Automation & Scripts</h2>
+        <p>Custom tools and scripts to automate tasks and boost productivity.</p>
+      </div>
+      <div class="service-card">
+        <h2>🛒 E-Commerce Solutions</h2>
+        <p>Online stores with secure payment integration and inventory management.</p>
+      </div>
+      <div class="service-card">
+        <h2>📈 SEO & Marketing</h2>
+        <p>Boost your visibility with search engine optimization and digital campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h1>Our Projects</h1>
+    <p>Explore some of the work we've done — from websites to apps and automation tools.</p>
+    <div class="project-grid">
+      <div class="project-card"><h2>Portfolio Website</h2><p>A sleek personal portfolio built with HTML, CSS, and JavaScript.</p></div>
+      <div class="project-card"><h2>E-Commerce Website</h2><p>Online shop with payment integration and admin dashboard.</p></div>
+      <div class="project-card"><h2>Password Authentication</h2><p>An authentication page to allow acces to valid users.</p></div>
+      <!-- <div class="project-card"><h2>Automation Script</h2><p>Python script that automates daily reporting tasks for a business.</p></div> -->
+      <!-- <div class="project-card"><h2>Blog Platform</h2><p>Custom CMS for publishing articles with user authentication.</p></div>
+      <div class="project-card"><h2>SEO Dashboard</h2><p>Analytics dashboard to track website performance and SEO metrics.</p></div> -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>About Us</h1>
+    <p class="intro">Welcome to my portfolio page — where creativity meets technology. Founded by Subhranil GHosh in Kolkata, we specialize in crafting digital solutions that are fast, elegant, and user-friendly.</p>
+    <div class="founder">
+      <img src="Images/IMG-20250704-WA0007.jpg" alt="Subhranil Ghosh" />
+      <div>
+        <h2>👨‍💼 Subhranil Ghosh</h2>
+        <p>Founder & Lead Developer</p>
+        <p>With a passion for clean code and modern design, Subhranil brings ideas to life through web, mobile, and automation technologies.</p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="skill"><span>HTML/CSS</span><div class="bar"><div class="fill" style="width:95%"></div></div></div>
+      <div class="skill"><span>JavaScript</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><span>React & Node.js</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+      <div class="skill"><span>Express.js & MongoDB</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+      <div class="skill"><span>Next.js Full Stack</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+    </div>
+
+    <!-- Timeline -->
+    <h2 class="section-title">Our Journey</h2>
+    <ul class="timeline">
+      <li><strong>2019:</strong> Completed my class 10 board exams</li>
+      <li><strong>2021:</strong> Passed out my CBSE in Science stream</li>
+      <li><strong>2022:</strong> Went to engineering</li>
+      <li><strong>2025:</strong> Finall year under graduate student in Computer Science</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Subhranil. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
